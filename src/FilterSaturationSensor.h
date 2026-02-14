@@ -24,6 +24,7 @@ public:
   {
     setInitialCaption("Filter Saturation");
     setUnitAfterValue("%");
+    setValuePrecision(2);
     // Initialize LED for consistent lighting
     if (ledPin >= 0)
     {
